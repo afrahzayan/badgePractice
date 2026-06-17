@@ -1,11 +1,11 @@
 const jwt = require('jsonwebtoken')
 
 const user = {
-    name: "afrah",
-    email: "afrah@gmail.com"
+    name : "afrah",
+    email : "afrah@gmail.com"
 }
 
-const secretKey = "mykey"
+const secretKey = "myKey"
 
 const token = jwt.sign(user,secretKey)
 
